@@ -1,2 +1,2 @@
-# React-Form-w-Formik
+# React-Form-with-Formik
 React Form using Formik
