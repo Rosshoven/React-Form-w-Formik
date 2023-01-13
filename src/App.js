@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-// import { Formik, Field, Form, ErrorMessage} from "formik";
 import { useFormik } from "formik";
 import "./index.css";
-// import Yup from 'yup';
+// TODO: import useFormik from formik library
+// Most code from formik.org/docs/tutorial
 
 // VALIDATION
 const validate = values => {
@@ -25,7 +25,6 @@ return errors;
 
 
 // SIGN UP FORM
-// TODO: import useFormik from formik library
 const SignupForm = () => {
   // TODO: add a const called formik assigned to useFormik()
   const formik = useFormik({
