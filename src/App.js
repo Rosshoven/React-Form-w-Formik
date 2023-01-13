@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
+// TODO: import useFormik from formik library
 import { useFormik } from "formik";
 import "./index.css";
-// TODO: import useFormik from formik library
+
 // Most code from formik.org/docs/tutorial
 
 // VALIDATION
@@ -33,7 +34,7 @@ const SignupForm = () => {
       pswField: '',
     },
     validate,
-    onSubmit: values => {
+    onSubmit: _values => {
       alert("Login Successful");
     },
   });
