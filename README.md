@@ -1,4 +1,4 @@
-<img src = "Images/Formik-form-image.jpg">
+<img src = "./Images/Formik-form-image.jpg">
 
 # React Form with Formik
 ## React Form using Formik
