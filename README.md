@@ -1,3 +1,5 @@
+<img = "Formik-form-image.jpg">
+
 # React Form with Formik
 ## React Form using Formik
 
